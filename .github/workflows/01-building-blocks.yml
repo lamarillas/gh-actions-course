@@ -1,10 +1,5 @@
 name: 01 - Building Blocks
-on: 
-  push:
-  pull_request:
-  schedule:
-    - cron: '*/5 * * * *'
-  workflow_dispatch:
+on: push
 jobs: 
   echo-hello:
     runs-on: ubuntu-latest
